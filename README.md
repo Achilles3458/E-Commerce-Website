@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# E-Commerce-Website
+### I have design an E-Commerce Website named E-Commerce. This project was build as a individual project in Masai School. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Features:-
+1. You will find latest products on this website.
+2. It has features of authentication, Login and Register User.
+3. It has different categories and filters to find the products.
+4. Users can read details of each product by clicking on product.
+5. Users can add products to the cart.
+6. Users have to fill address details for shipping.
+7. Users can pay money using a card as well as RazorPay.
 
-## Available Scripts
 
-In the project directory, you can run:
+# Technologies that we used :-
+1. REACT
+2. CSS
+3. Node.js
+4. Express.js
+5. MongoDB
+6. Material UI
 
-### `npm start`
+## Contact
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Alok Kushwaha - [My Linkedin](https://www.linkedin.com/in/alok-kushwaha-02b6ba129/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Project Link - [Project Repo](https://github.com/Alok0818/E-Commerce-mern-website)
 
-### `npm test`
+Project Deployed Link - [Project Deployed Link](https://e-commerce-alokkushwaha.vercel.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Glimpse of Our Work:-
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Register Page
+Users can create a account on this page.
+<img width="944" alt="image" src="https://user-images.githubusercontent.com/94324872/171922134-b8c64021-6b1a-4127-bc5c-288140388b7d.png">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Login Page
+Only valid user can login on this web application. If user is not valid, then it will show an error. If user is valid, then user will redirect to home page for shopping.
+<img width="952" alt="image" src="https://user-images.githubusercontent.com/94324872/171922333-4dc75284-3f16-47a9-b696-01868f8b38a8.png">
 
-### `npm run eject`
+### Home Page Navbar And Landing Page
+On this page, users can see Navbar and Landing image of the website.
+<img width="944" alt="image" src="https://user-images.githubusercontent.com/94324872/171921832-7950e4de-01ca-4372-9881-b26bf55d6247.png">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Home Page Category
+On this page, users can see Category list of Product.
+<img width="932" alt="image" src="https://user-images.githubusercontent.com/94324872/171922782-1177536b-b9da-4b2e-95f1-df697f65e659.png">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Trending Products of the week
+On this page, users can see the trending products on the website.
+<img width="918" alt="image" src="https://user-images.githubusercontent.com/94324872/171922836-d64e39fe-a9b6-4043-938f-7ac41b5a0caa.png">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Footer 
+This is the footer of the website
+<img width="935" alt="image" src="https://user-images.githubusercontent.com/94324872/171923043-af363645-1218-4253-986b-578ad55411f8.png">
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Products Page
+On this page, users can see the selected category products on the website.
+<img width="932" alt="image" src="https://user-images.githubusercontent.com/94324872/171923196-bcc426c4-8d96-4fdb-bd94-d3778374a694.png">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Product Description Page
+On this page, users can read all the details of any product. Also, users can add product to cart using add to cart button.
 
-### Code Splitting
+<img width="934" alt="image" src="https://user-images.githubusercontent.com/94324872/171923309-e450588d-d56c-474a-8b84-9568ab54c4ad.png">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Cart Page  Increase or Decrease the quantity of items. 
+Users can see all the products added in the cart with quantity, price and total amount.
 
-### Analyzing the Bundle Size
+<img width="946" alt="image" src="https://user-images.githubusercontent.com/94324872/171923552-facfff35-9e29-478c-a188-dd616c1cf8ea.png">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+### Check-Out Page
+On this page users have to fill all the details for shipping purpose. Also, users can increase or decrease the quantity of product.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<img width="938" alt="image" src="https://user-images.githubusercontent.com/94324872/171923916-9b0b9aab-9d19-4ab2-97cc-b963431cd98e.png">
 
-### Advanced Configuration
+### RazorPay Payment 
+Users can pay money by filling card details or users can also use other payment option on payment gateway.
+<img width="934" alt="image" src="https://user-images.githubusercontent.com/94324872/171925227-a025dd87-75df-42d4-b00f-2e62cae574ae.png">
+<img width="941" alt="image" src="https://user-images.githubusercontent.com/94324872/171925382-a53a6c99-f0eb-4858-8051-e103c42cd2cd.png">
+<img width="956" alt="image" src="https://user-images.githubusercontent.com/94324872/171925804-35923a17-68d9-4034-ae73-e3c22e89e08c.png">
+.... 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
