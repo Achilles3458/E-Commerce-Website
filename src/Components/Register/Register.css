@@ -1,0 +1,46 @@
+#registerBox{
+    border: 1px solid transparent;
+    width: 100%;
+    height: 800px;
+    align-items: center;
+    margin-top: -1%;
+    background-image: url("https://wallpaperaccess.com/full/4893759.jpg");
+}
+
+#registerBox>div{
+    /* border: 1px solid red; */
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-radius: 6px ;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: whitesmoke;
+    
+}
+
+#google{
+    width: 200px;
+    margin-top: 20px;
+}
+#loginHead{
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 120px;
+    padding-right: -50px;
+    /* border: 1px solid red; */
+    width: 250px;
+}
+
+.FontStyleNav{
+    font-family: 'Water Brush', cursive;
+    /* border: 2px solid red; */
+    font-size: 30px;
+    /* width: 100%;
+    height: 100%; */
+    font-size: larger;
+    
+  }

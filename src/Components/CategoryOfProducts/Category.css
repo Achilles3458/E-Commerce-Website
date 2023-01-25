@@ -1,0 +1,82 @@
+.Category{
+    margin-top: 4%;
+display: flex;
+justify-content: space-evenly;
+font-family: 'Roboto', sans-serif;
+}
+
+.Category>div:nth-child(1){
+    width: 330px;
+    height: 320px;
+    /* border: 2px solid black; */
+    background-image: url("https://media.istockphoto.com/photos/attractive-businessmen-on-the-street-picture-id1065840316?k=20&m=1065840316&s=612x612&w=0&h=xsR2_8ce0thEk6tRFh8_SFqACI1EPOOWBP7Gkes8tfA=");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(60, 60, 93, 0.55) 10px 40px 70px -10px inset, rgba(0, 0, 0, 0.3) 0px 28px 46px -10px inset;
+    border-radius: 6px;
+}
+.Category>div:nth-child(2){
+    width: 330px;
+    height: 320px;
+    /* border: 2px solid purple; */
+    background-image: url("https://us.123rf.com/450wm/zoomteam/zoomteam1702/zoomteam170200348/71668723-fashionably-dressed-woman-on-the-streets-of-a-small-italian-town-shopping-concept.jpg?ver=6");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(60, 60, 93, 0.55) 10px 40px 70px -10px inset, rgba(0, 0, 0, 0.3) 0px 28px 46px -10px inset;
+    border-radius: 6px;
+}
+
+.Category>div:nth-child(3){
+    width: 330px;
+    height: 320px;
+    /* border: 2px solid palegreen; */
+    background-image: url("https://i.pinimg.com/736x/db/de/8f/dbde8f8048d9d20e45bba720812c7866--lighthouse-keeper-babies-fashion.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(60, 60, 93, 0.55) 10px 40px 70px -10px inset, rgba(0, 0, 0, 0.3) 0px 28px 46px -10px inset;
+    border-radius: 6px;
+}
+
+.Category>div:nth-child(1):hover,
+.Category>div:nth-child(2):hover,
+.Category>div:nth-child(3):hover{
+    cursor: pointer;
+    width: 334px;
+    height: 324px;
+
+}
+
+.CategoryName{
+    /* border: 2px solid red; */
+    margin-top: 250px;
+    /* font-weight: bolder; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 200%; */
+    font-size: 24px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.CategoryShopNow{
+    margin-top: 0px;
+    /* border: 2px solid red; */
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    text-decoration: underline;
+}
+
+.CategoryShopNow:hover{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.gif{
+    margin: auto;
+    width: 83%;
+    margin-top: 5%;
+}

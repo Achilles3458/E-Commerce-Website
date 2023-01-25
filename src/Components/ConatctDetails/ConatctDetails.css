@@ -1,0 +1,122 @@
+.ConatctDetailsMain{
+    display: flex;
+    margin-top: 30px;
+    border: 2px solid black;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.ConatctDetails{
+    margin-left: 5%;
+/* border: 2px solid blue; */
+width: 40%;
+/* margin: auto; */
+text-align: start !important;
+}
+
+.SaveAddress{
+    /* border: 2px solid blue; */
+}
+
+.SaveAddress>div{
+    /* border: 2px solid brown; */
+    display: flex;
+}
+.SaveAddress>div>div{
+    border: 2px solid #ff2020;
+    color: #ff2020;
+    border-radius: 25px;
+    width: 10%;
+    height: 35px;
+    text-align: center;
+    margin-right: 3%;
+}
+
+.SaveAddress>div>div:hover{
+    background-color: #ff2020;
+    color: whitesmoke;
+}
+.SaveAddress>div>div>p{
+    /* border: 2px solid greenyellow; */
+    margin-top: 8px;
+    font-weight: bolder;
+}
+
+.AddAddress{
+    margin: auto;
+    margin-top: 5%;
+    border: 2px solid #ff2020;
+    background-color: #ff2020;
+    border-radius: 25px;
+    color: whitesmoke;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    /* padding-top: 1%; */
+    margin-left: 10px;
+}
+
+.AddAddress>div>p{
+    font-weight: bolder;
+    /* font-size: larger; */
+}
+
+.ConatctCartData{
+    /* border: 2px solid red; */
+    width: 50%;
+}
+
+#box{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+  }
+  
+  #box1{
+    /* border: 2px solid black; */
+    width: 40px;
+    background-color: #ff2020;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    
+  }
+  
+  #box1:hover{
+    color: black;
+  }
+  
+  #quantity{
+    width: 40px;
+  }
+
+  .CartRemove{
+    margin-right: 45px;
+    border: 1px solid none;
+    width: 120px;
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    height: 30px;
+    padding-top: 6px;
+    cursor: pointer;
+    
+  }
+  
+  .CartRemove:hover{
+    color: black;
+  
+  }
+
+  #cartPro{
+      display: flex;
+      font-size: 16px;
+
+  }
+
+  #cartImage{
+      width: 180px;
+      height: 40px;
+  }

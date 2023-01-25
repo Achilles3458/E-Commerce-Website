@@ -1,0 +1,112 @@
+/* body{
+    border: 2px solid greenyellow;
+    position: relative;
+    top: 0px;
+} */
+
+.NavBarMain{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 3;
+    height: 70px;
+    margin: auto;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 22px;
+    top:0;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.NavbarAvtar{
+    width: 42px;
+    height: 42px;
+    border: 1px solid black;
+    border-radius: 25px;
+    align-content: center;
+}
+.NavbarAvtar>div>p{
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* border: 2px solid blue; */
+    font-family: 'Koulen', cursive;
+    text-transform: capitalize;
+    margin: -15px;
+    /* margin-top: 18%; */
+    text-align: center;
+    font-size: 29px;
+    font-weight: bolder;
+    /* border: 2px solid blue; */
+}
+
+input{
+    height: 140%;
+}
+
+
+
+
+.name {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .name:hover{
+      color: #2155CD;
+       
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+  .FontStyleNav{
+    font-family: 'Water Brush', cursive;
+    /* border: 2px solid red; */
+    font-size: 30px;
+    /* width: 100%;
+    height: 100%; */
+    font-size: larger;
+  }
+
+  #home1:hover{
+    cursor: pointer;
+    /* color: Blue;
+    font-size: 25px; */
+  }

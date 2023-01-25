@@ -1,0 +1,185 @@
+.Footer{
+     background-color: whitesmoke;
+    color: black;
+    height: 460px !important;
+    /* border: 1px solid red; */
+    
+}
+
+.Footer>div{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid rebeccapurple */
+}
+
+.Footer>div>div{
+    /* border: 2px solid red; */
+    width: 350px;
+    height: 120px;
+    /* padding-top: 40px; */
+}
+
+.Footer>div>div>p:nth-child(1){
+    /* border: 2px solid red; */
+    font-family: Jost, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    /* color: #000000; */
+}
+
+.Footer>div>div>p:nth-child(2){
+    /* border: 2px solid blue; */
+    font-family: Jost, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    /* color: #57667e; */
+    margin-bottom: 5px;
+}
+
+.Footer>div>div>p:nth-child(3){
+    /* border: 2px solid blue; */
+    font-family: Jost, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    /* color: #57667e; */
+    margin-top: 0px;
+}
+
+.Footer>div>div>input{
+    /* border:  2px solid black; */
+    height: 40px;
+    width: 230px;
+    align-content: center;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.Footer>div>div>button{
+    border: none;
+    margin-left: 3%;
+    height: 42px;
+    width: 100px;
+    background-color: #ff2020;
+    color: #ffffff;
+    font-size: large;
+    border-radius: 5px;
+
+}
+
+.Footer>div>div>button:hover{
+    cursor: pointer;
+    color: black;
+    
+}
+
+.Footer>div>div>div{
+    display: flex;
+ margin-left: 8%;
+ padding-top: 8%;
+}
+
+.Footer>div>div>div>div{
+    
+ /* border: 2px solid red; */
+ margin-left: 9%;
+ width: 50px;
+ height: 50px;
+}
+.Footer>div>div>div>div:hover{
+    color: #ff2020;
+}
+
+.bottomborder{
+    border-top: 1px solid black;
+    width: 82%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.Footer2{
+    /* margin-top: 5%; */
+    /* border: 2px solid red;    */
+    /* margin-bottom: 3%; */
+}
+
+.Footer2>div{
+    /* border: 2px solid blanchedalmond; */
+    width: 190px !important;
+    height: 240px !important;
+}
+
+#nametag{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+#shopmen{
+    padding-right: 30px;
+    
+}
+
+#baby{
+    padding-left: 13px;
+}
+
+#quick{
+    padding-right: 20px;
+}
+
+.Footer2>div>p:nth-child(1){
+    /* border: 2px solid green; */
+    font-family: Jost, sans-serif;
+    font-weight: 400 !important;
+    font-size: 18px;
+    margin-left: -15px;
+}
+
+.Footer2>div>div{
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15px;
+}
+
+.Footer2>div>div>p{
+    /* border: 2px solid fuchsia; */
+    
+    margin-top: 0px;
+    margin-bottom: 9px; 
+    font-family: Jost, sans-serif;
+    font-weight: 400;
+    font-size: 16px;    
+    color: black;
+}
+
+.Footer2>div>div>p:hover{
+    /* font-style: italic; */
+    font-size: 17px; 
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Foote3{
+    height: 40px !important;
+    /* border: 2px solid greenyellow; */
+}
+.Foote3>div{
+    /* border: 2px solid blue !important; */
+    height: 0px !important;
+    /* border: 1px solid blue; */
+}
+.Foote3>div>p{
+    /* border: 2px solid greenyellow !important; */
+    width: 900px;
+    margin-left: -240px !important;
+    font-family: Jost, sans-serif;
+    font-weight: 300 !important;
+    font-size: 16px;
+    color: black;
+}
+
+#icon:hover{
+    cursor: pointer;
+}
